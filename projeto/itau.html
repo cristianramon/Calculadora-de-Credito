@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Itaú</title>
+</head>
+<body>
+    <div id="resp">Crédito Consignado
+        <p>Convenio:</p>
+        <p>Parcela:<br>
+           Prazo: <br>
+           Liberação:</p>
+
+    </div>
+	<header>
+        <h1>Itaú</h1>
+    </header>
+    <section id="pb">
+    <div>
+        <input type="radio" name="conv" id="gov" checked>GOV SC
+        <input type="radio" name="conv" id="inss" >INSS
+        <input type="radio" name="conv" id="fgts" disabled >FGTS
+    </div>   
+    </section>
+    
+    <form action="" method="post" id="fpb">
+		<p id="pinp">
+        <input type="number" id="n1" placeholder="parcela" min="20">
+            Parcela <br>
+		<input type="text" id="n2" placeholder="prazo" list="faixa">
+            Prazo <br>
+        <input type="number" name="lib" id="lib" placeholder="Liberação">
+            Liberação
+    </p>
+            <datalist id="faixa">
+             <option data-value="0">84</option>
+             <option data-value="1">96</option>
+             <option data-value="2">120</option>
+            </datalist>
+        <p><input type="button" value="Calcular" id="bt" onclick="calcular()">
+        <div id="res" style="margin-top: 2%;">Liberação</div></p>
+	</form>
+    
+<footer>
+    <p>&copy; CristianROS</p>
+</footer>
+<script src="scriptSafra.js"></script>
+</body>
+</html>

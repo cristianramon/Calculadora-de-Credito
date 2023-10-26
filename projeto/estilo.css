@@ -1,0 +1,85 @@
+
+body{
+    background: white;
+    background-image: url(logo-fp.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    font: normal 15pt Arial;
+}
+header{
+    font: normal 15pt Times;
+    color: rgb(8, 83, 8);
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: -80px;
+}
+h2{
+    margin-top: -45%;
+    text-align: center;
+    font: normal 15pt Arial;
+}
+section#bancos{
+    /* height: 10vh;  */
+    background: hsla(0, 0%, 100%, 0.952);
+    border-radius: 10px;
+    padding: 150px;
+    width: 15%;
+    margin: auto;
+    margin-top: 100px; 
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.836);
+}
+#menu ul li {
+    list-style-type: none;
+    }
+footer{
+    margin-left: 43%;
+    padding: 50px;
+    margin-top: 200px;
+    color: rgba(11, 85, 11, 0.76);
+    font-style: italic;
+}
+button{
+    text-align: left;
+    width: 100%;
+}
+section#pb{
+    text-align: center;
+    background: hsla(0, 0%, 100%, 0.952);
+    border-radius: 10px;
+    padding: 15px; 
+    width: 30%;
+    margin: auto;
+    margin-top: 100px; 
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.836);
+}
+form#fpb{
+    margin-top: 3%;
+    text-align: left;
+    
+}
+
+div#res{
+    text-align: center;
+    background: hsla(0, 0%, 100%, 0.952);
+    border-radius: 10px;
+    padding: 15px; 
+    width: 30%;
+    margin: auto;
+    margin-top: 100px; 
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.836);
+}
+div#resp{
+    text-align: left;
+    background: hsla(0, 0%, 100%, 0.952);
+    border-radius: 10px;
+    padding: 15px; 
+    width: 25%;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.836);
+    float: left;
+    height: 100%;
+    position: absolute;
+}
+input#n1{margin-left: 45%}
+input#n2{margin-left: 45%}
+input#lib{margin-left: 45%}
+input#bt{margin-left: 45%}
